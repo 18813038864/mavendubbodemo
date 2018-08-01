@@ -8,15 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="commonDemo" />
         <module name="serviceDemo" />
-        <module name="web" />
         <module name="webDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="commonDemo" target="1.5" />
-      <module name="mavendubbodemo" target="1.5" />
-      <module name="serviceDemo" target="1.5" />
-      <module name="web" target="1.5" />
+      <module name="commonDemo" target="1.8" />
+      <module name="mavendubbodemo" target="1.8" />
+      <module name="serviceDemo" target="1.8" />
       <module name="webDemo" target="1.6" />
     </bytecodeTargetLevel>
   </component>
