@@ -6,11 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mavendubbodemo" />
+        <module name="commonDemo" />
+        <module name="serviceDemo" />
+        <module name="web" />
+        <module name="webDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mavendubbodemo" target="1.6" />
+      <module name="commonDemo" target="1.5" />
+      <module name="mavendubbodemo" target="1.5" />
+      <module name="serviceDemo" target="1.5" />
+      <module name="web" target="1.5" />
+      <module name="webDemo" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

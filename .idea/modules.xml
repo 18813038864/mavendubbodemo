@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/commonDemo/commonDemo.iml" filepath="$PROJECT_DIR$/commonDemo/commonDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mavendubbodemo.iml" filepath="$PROJECT_DIR$/mavendubbodemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceDemo/serviceDemo.iml" filepath="$PROJECT_DIR$/serviceDemo/serviceDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webDemo/webDemo.iml" filepath="$PROJECT_DIR$/webDemo/webDemo.iml" />
     </modules>
   </component>
 </project>
