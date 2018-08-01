@@ -24,38 +24,13 @@
             <param name="ConversionPattern" value="%d %-5p %c{2}(%L) - %m%n" />
         </layout>
     </appender>
-    <!-- ===== [应用Appender] ===== -->
-    <!-- [应用Appender] 默认 -->
-    <!-- ===================================================================== -->
-    <!-- Loggers -->
-    <!-- ===================================================================== -->
-    <!-- ===== [Logger] ===== -->
-    <!-- [公共Logger] 控制台STDOUT - STDOUT -->
-    <logger name="STDOUT" additivity="false">
-        <level value="INFO" />
-        <appender-ref ref="console" />
-    </logger>
-    <!-- ===== [应用Logger] ===== -->
-    <!-- [Logger] 默认 -->
-    <logger name="cn.xdf.ucan.goodhope" additivity="false">
-        <appender-ref ref="console" />
-        <appender-ref ref="ERROR-APPENDER" />
-
-    </logger>
     <!-- ===================================================================== -->
     <!-- Root logger -->
     <!-- ===================================================================== -->
     <root>
         <level value="info" />
         <appender-ref ref="console" />
-        <appender-ref ref="DEFAULT-APPENDER" />
         <appender-ref ref="ERROR-APPENDER" />
     </root>
-    <!-- [系统级Logger] 统一错误日志打印 -->
-
-    <!--<logger name="goodhope-ERROR" additivity="false">
-           <level value="info" />
-           <appender-ref ref="ERROR-APPENDER" />
-    </logger>-->
 
 </log4j:configuration>
